@@ -16,3 +16,4 @@ __all__ = [
     x, y
 ]
 # Tudo que estiver dentro da lista all, variaveis metodos sera importado e tudo que estiver fora nao vai ser importado
+from secao_4 import 
