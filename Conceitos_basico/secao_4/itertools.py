@@ -18,7 +18,11 @@ pessoas = [
 camisetas = [
     ['preta', 'branca']
 ]
-
+camisetas_tamanho = [
+    ['preta', 'branca'],
+    ['p', 'm'],
+    ['masculino', 'feminino']
+]
 print_iter((combinations(pessoas,2)))
 print_iter((permutations(pessoas,2)))
-print_iter((product(pessoas,2)))
+print_iter((product(camisetas_tamanho,2)))
